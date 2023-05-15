@@ -54,7 +54,7 @@ function Dashboard() {
         // <Layout>
  <section>
     <div class="w-full bg-zinc-800 flex justify-between items-center">
-        <div class="text-white flex justify-items-start	justify-start ml-4 py-4 justify-start">
+        <div class="text-white flex justify-items-start	justify-start ml-4 py-4">
         <h1 class="text-2xl">Arvan Challenge</h1>
         <span class="text-base ml-5 mt-1.5">Welcome, {user.username}!</span>
     </div>
