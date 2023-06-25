@@ -32,7 +32,7 @@ function Login() {
         axios.post('/api/users/login', payload)
         .then((r) => {
             setIsSubmitting(false)
-            localStorage.setItem('token', r.data.token)
+            localStorage.setItem('token', r.data.user.token)
             navigate("/dashboard");
         })
         .catch((e) => {

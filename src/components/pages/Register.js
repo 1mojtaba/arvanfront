@@ -32,7 +32,7 @@ function Register() {
         axios.post('/api/users', payload)
         .then((r) => {
             setIsSubmitting(false)
-            localStorage.setItem('token', r.data.token)
+            localStorage.setItem('token', r.user.token)
             navigate("/dashboard");
         })
         .catch((e) => {
